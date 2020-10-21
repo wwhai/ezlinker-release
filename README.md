@@ -8,7 +8,7 @@ docker-compose -f ./docker-compose.yml -p ezlinker up -d
 ```
 ### 2.注意事项
 1. 环境准备
-需要一个干净的Linux系统，并且提前安装好Docker和DockerCompose
+需要一个干净的Linux系统，并且提前安装好Docker和DockerCompose,Docker版本在*19.0*以上,Compose版本在*1.27.0*以上。
 2. 操作权限
 如果不是root权限注意加上sudo
 3. 删除环境
